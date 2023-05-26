@@ -1,12 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nunito+Sans:ital,wght@0,200;1,200&display=swap');
+
+
 html
     {
-    background-image: url(./assets/IMG/img-desk.jpg);
+    background-image: url(./assets/IMG/img-lightbulb.jpg);
+    background-size: auto;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;;
     }
+
+
+header
+    {
+    #top-menu {margin-left: 5px;}
+    
+    }
+
+
 body
     {
-    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    color: chocolate;
     font-size: 29px;
+    margin-left: 50px
+    }
+
+#picture
+    {
+        border: 5px solid;
+        border-color: chocolate;
+
+    }
+
+#bio
+    {
+    position: absolute;
+    top: 560px;
+    left: 550px;
+    }
+
+#skills
+    {
+    position: static;
+    vertical-align: center;
+    margin-left: 510px;
     
+    }
+
+
+/* footer
+    {
+    background-color: rgb(142, 132, 132);
+    text-align: center;
+    margin-top: 200;
+    padding: 10px;
+    } */
+
+
+div{
+        text-align: center;
+        width: 1150px;
     }
