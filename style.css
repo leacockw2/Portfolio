@@ -6,7 +6,7 @@ html
     background-image: url(./assets/IMG/img-lightbulb.jpg);
     background-size: auto;
     background-position: center;
-    background-repeat: no-repeat;;
+    background-repeat: repeat;
     }
 
 #top-menu {float: right;}
@@ -15,7 +15,7 @@ body
     {
     font-family: 'Nunito Sans', sans-serif;
     color: chocolate;
-    font-size: 29px;
+    font-size: 35px;
     margin-left: 50px
     }
 
@@ -29,8 +29,8 @@ body
 #bio
     {
     position: absolute;
-    top: 560px;
-    left: 550px;
+    top: 520px;
+    left: 590px;
     }
 
 #skills
@@ -45,15 +45,17 @@ body
     margin-left: 510px
     }
 
-.container1 
-    {
-    grid-template-rows: 1;
-    grid-template-columns: 2;
-        .project-b {grid-column-start: 2;}
-        .project-a {grid-column-start: 1;}
+    /* need to put project images and descriptions in rows and columns */
+#project-layout 
+    { 
+        max-width: 1250px;
+        margin: 0 left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        text-align-last: ;
     }
-
-
+    p {margin: 0}
 
 
 div{
