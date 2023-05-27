@@ -9,13 +9,7 @@ html
     background-repeat: no-repeat;;
     }
 
-
-header
-    {
-    #top-menu {margin-left: 5px;}
-    
-    }
-
+#top-menu {float: right;}
 
 body
     {
@@ -29,7 +23,7 @@ body
     {
         border: 5px solid;
         border-color: chocolate;
-
+        position: top
     }
 
 #bio
@@ -44,20 +38,26 @@ body
     position: static;
     vertical-align: center;
     margin-left: 510px;
-    
+    }
+
+#projects
+    {
+    margin-left: 510px
+    }
+
+.container1 
+    {
+    grid-template-rows: 1;
+    grid-template-columns: 2;
+        .project-b {grid-column-start: 2;}
+        .project-a {grid-column-start: 1;}
     }
 
 
-/* footer
-    {
-    background-color: rgb(142, 132, 132);
-    text-align: center;
-    margin-top: 200;
-    padding: 10px;
-    } */
 
 
 div{
         text-align: center;
         width: 1150px;
     }
+    /* This div moves bio, skills, and projects alignment */
